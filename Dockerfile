@@ -1,7 +1,7 @@
 FROM buildpack-deps:curl
 
 RUN apt-get update \
- && apt-get intall -y locales \
+ && apt-get install -y locales \
  && rm -rf /var/lib/apt/lists/*
 
 ENV LANG C.UTF-8
