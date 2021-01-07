@@ -1,5 +1,11 @@
 FROM buildpack-deps:curl
 
+RUN apt-get update \
+ && apt-get intall -y locales \
+ && rm -rf /var/lib/apt/lists/*
+
+ENV LANG C.UTF-8
+ENV LC_ALL C.UTF-8
 
 ENV OVFTOOL_VERSION 4.4.0-16360108
 
