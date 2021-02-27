@@ -10,7 +10,7 @@ https://code.vmware.com/docs/11747/ovf-tool-user-s-guide
 
 ## Usage
 ```
-docker run -it --rm maroskukan/ovftool ovftool --help
+docker run -it --rm playm3u8/ovftool ovftool --help
 ```
 
 
